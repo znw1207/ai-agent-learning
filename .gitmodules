@@ -1,0 +1,12 @@
+[submodule "external/AgentGuide"]
+	path = external/AgentGuide
+	url = git@github.com:adongwanai/AgentGuide.git
+[submodule "external/langgraph"]
+	path = external/langgraph
+	url = git@github.com:langchain-ai/langgraph.git
+[submodule "external/opencode"]
+	path = external/opencode
+	url = git@github.com:anomalyco/opencode.git
+[submodule "external/agentic-design-patterns"]
+	path = external/agentic-design-patterns
+	url = git@github.com:xindoo/agentic-design-patterns.git
