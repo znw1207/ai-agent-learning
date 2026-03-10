@@ -10,3 +10,6 @@
 [submodule "external/agentic-design-patterns"]
 	path = external/agentic-design-patterns
 	url = git@github.com:xindoo/agentic-design-patterns.git
+[submodule "external/component-app-webservice"]
+	path = external/component-app-webservice
+	url = git@github.com:component-dot-app/component-app-webservice.git
