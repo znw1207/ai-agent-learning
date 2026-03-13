@@ -49,6 +49,7 @@ Phase 4: 面试化表达与项目化沉淀（2 周）
 
 文档产出：
 - `topics/agent/knowledge/01-agent-mental-model.md`
+- `topics/agent/knowledge/02-agentv3-deepening-roadmap.md`
 - `topics/agent/knowledge/02-workflow-patterns.md`
 - `topics/agent/knowledge/03-react-vs-workflow.md`
 
@@ -74,8 +75,10 @@ Phase 4: 面试化表达与项目化沉淀（2 周）
 - 做一个最小 RAG demo：本地文档 -> 切块 -> 向量检索 -> 回答生成。
 - 加入 1 个优化点（例如：semantic cache 或混合检索）。
 - 记录优化前后指标（P95/P99、成本、命中率）。
+- 如果主线项目是 `agentV3`，优先做“规范检索 / 历史页面案例检索”的轻量 RAG，而不是一开始就做 Agentic RAG。
 
 文档产出：
+- `topics/rag/knowledge/01-rag-for-agent-projects.md`
 - `topics/rag/knowledge/01-rag-pipeline.md`
 - `topics/rag/knowledge/02-rag-evaluation.md`
 - `topics/rag/knowledge/03-rag-optimization-notes.md`
@@ -214,3 +217,5 @@ ai-agent-learning/
 使用方式：每完成一个阶段，就在本文件追加“阶段复盘”小节，记录学到了什么、卡在哪里、下一阶段怎么改。
 
 补充说明：本路线默认优先沉淀“知识点文档”和“可执行示例”，问答文档用于辅助表达训练。复杂主题要先补优质资料，再落地到对应 `topics/<topic>/`。
+
+项目化补充：如果已经有真实项目（例如 `external/component-app-webservice` 中的 `agentV3`），优先围绕该项目补齐 Eval、Observability、Recovery、Governance，再考虑 Reflection、多 Agent、Agentic RAG 等高级模式。

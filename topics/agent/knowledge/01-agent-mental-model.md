@@ -6,15 +6,24 @@
 
 从工程角度看，Agent 不是“会聊天的模型”，而是一个可执行任务的系统。
 
-最小定义：
+更准确的定义（参考 `agentic-design-patterns` 术语表）：
+- Agent 是“能够感知环境并为实现目标采取自主行动的系统”。
+
+最小能力闭环：
 - 有目标（Goal）
 - 能感知上下文（Context）
 - 能做决策（Policy / Planning）
 - 能调用外部能力（Tools）
 - 能基于反馈迭代（Feedback Loop）
 
-一句话版本：
-- Agent = `LLM + 工作流 + 工具系统 + 状态/记忆 + 评估与监控`
+一句话版本（定义与实现分开）：
+- Agent = `Goal + State + Policy + Action Interface + Feedback + Governance`
+
+注意区分：
+- Agent 是系统能力定义，不等于某一种固定架构。
+- ReAct 是决策/执行范式之一（Thought -> Action -> Observation 循环）。
+- Workflow（如 LangGraph）是另一类显式编排范式。
+- Multi-Agent 是组织形态，不是 Agent 定义本身。
 
 ## 2. Agent 的 6 层系统结构（开发岗版）
 

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "d1",
+    "title": "RAG Basics",
+    "text": "Retrieval-Augmented Generation first retrieves relevant documents and then asks the model to answer with those documents as context."
+  },
+  {
+    "id": "d2",
+    "title": "Chunking",
+    "text": "Chunking splits long documents into smaller pieces. Good chunk size and overlap often improve recall quality."
+  },
+  {
+    "id": "d3",
+    "title": "Embeddings",
+    "text": "Embeddings convert text into vectors. Similar meaning usually maps to nearby vectors in embedding space."
+  },
+  {
+    "id": "d4",
+    "title": "Reranking",
+    "text": "Reranking rescoring can improve top-k quality after the initial retrieval stage."
+  },
+  {
+    "id": "d5",
+    "title": "Agentic RAG",
+    "text": "Agentic RAG lets an agent decide when to retrieve, rewrite queries, perform multi-step retrieval, and stop when evidence is sufficient."
+  },
+  {
+    "id": "d6",
+    "title": "Evaluation",
+    "text": "RAG evaluation often includes retrieval metrics like recall at k and generation metrics like answer correctness and groundedness."
+  }
+]
