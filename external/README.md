@@ -25,13 +25,3 @@ git submodule update --init --recursive
 git submodule update --init --recursive
 git submodule update --remote --recursive
 ```
-
-## 暂未纳入
-
-- `component-app-webservice`
-- 原因：当前远程地址权限不足（`Repository not found`），无法从该 URL 拉取。
-- 处理方式：补充可访问的远程地址后，再执行：
-
-```bash
-git submodule add <accessible-repo-url> external/component-app-webservice
-```
