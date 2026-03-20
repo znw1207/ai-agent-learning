@@ -13,3 +13,6 @@
 [submodule "external/component-app-webservice"]
 	path = external/component-app-webservice
 	url = git@github.com:component-dot-app/component-app-webservice.git
+[submodule "external/learn-claude-code"]
+	path = external/learn-claude-code
+	url = git@github.com:shareAI-lab/learn-claude-code.git
